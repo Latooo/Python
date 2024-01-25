@@ -57,7 +57,20 @@ if texto1 == "campus" :
     print ("Soy camper")
 else :
     print ("No soy camper")
-    
+
+
+# ------ Funciones ------
+
+
+# ------ Arrays ------
+
+nombres = ["Juan", "Pedro", "Roberto", "Luciana", "Mariana"]
+print (nombres[0])#0 es la primera posicion del array
+print (nombres[1])
+print (nombres[2])
+print (nombres[3])
+print (nombres[4])
+
 ## Desarrollado por DANIEL ALEJANDRO LATORRE RUIZ - CC 1005257201
 
 
