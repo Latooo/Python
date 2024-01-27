@@ -100,7 +100,7 @@ saludar()
 
 # ------ Arrays ------
 
-nombres = ["Juan", "Pedro", "Roberto", "Luciana", "Mariana"]
+nombres =["Juan", "Pedro", "Roberto", "Luciana", "Mariana"]
 print (nombres[0])#0 es la primera posicion del array
 print (nombres[1])
 print (nombres[2])
