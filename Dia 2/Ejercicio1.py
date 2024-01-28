@@ -6,9 +6,8 @@ def fibonacci(n):
 
 def BienvenidaMensaje():
     print("¡Bienvenido al Generador de la Secuencia de Fibonacci!")
-    print("La Secuencia de Fibonacci comienza con 0 y 1, y cada término subsiguiente es la suma de los dos términos anteriores.")
-    print("Por favor, ingresa un número entero para generar la secuencia hasta ese término.")
-    print("Si deseas salir, simplemente ingresa 0.")
+    print("Ingresa un número entero para generar la secuencia hasta ese término.")
+    print("Si deseas salir, ingresa 0.")
 
 def main():
     BienvenidaMensaje()
@@ -22,7 +21,7 @@ def main():
                 continue
             
             if n == 0:
-                print("¡Gracias por usar el Generador de Fibonacci! ¡Hasta luego!")
+                print("¡Gracias por usar el Generador de Fibonacci!")
                 break
             
             secuencia = fibonacci(n)
