@@ -32,5 +32,5 @@ def BienvenidaMensaje():
     if intentos == 10:
         print(f"Se acabaron tus 10 intentos. El número secreto era {numeroSecreto}.")
 
-if __name__ == "__main__":
-    BienvenidaMensaje()
+
+BienvenidaMensaje()
