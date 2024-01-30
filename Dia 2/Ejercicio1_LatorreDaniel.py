@@ -31,5 +31,4 @@ def main():
             print("Error: Por favor, ingresa un valor entero válido.")
             continue
 
-if __name__ == "__main__":
-    main()
+main()
