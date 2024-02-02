@@ -7,10 +7,10 @@ Tuplas: Colección inmutable de elementos.
 Diccionarios: Estructura clave-valor mutable e indexada.
 
 
-Strings: Son inmutables.
-Listas: Son mutables.
-Tuplas: Son inmutables.
-Diccionarios: Son mutables.
+1. Strings: Son inmutables.
+2. Listas: Son mutables.
+3. Tuplas: Son inmutables.
+4. Diccionarios: Son mutables.
 
 
 

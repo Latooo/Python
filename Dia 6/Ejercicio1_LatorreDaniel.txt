@@ -13,7 +13,6 @@ big = large_num(b)
 print 'b is big:', big
 
 
-1. El primer bug que encontre es que la variable 'b' no esta definida. Se arregla asignan un valor a la variable "b"
-2. El siguiente bug esta en la funcion negate, en el return tiene un signo de resta. Para solucionarlo se le quitaria 
-   el signo de resta y se dejaria sola la variable.
+1. El primer bug que encontre es que la variable 'b' no esta definida. Se arregla asignando un valor a la variable "b".
+2. En la segunda funcion "large_num(num)" no tiene return. Se arregla poniendo el return(res) al final de la funcion.
 3. Otro bug que encontre es en la estructura del ultimo print esta se arreglaria agregando los parentesis.
