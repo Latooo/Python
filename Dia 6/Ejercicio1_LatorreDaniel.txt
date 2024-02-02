@@ -1,0 +1,19 @@
+
+def negate(num):
+   return -num
+
+def large_num(num):
+    res=(num > 10000)
+
+negate(b)
+nerg_b = num
+print 'b:', b, 'neg_b:', neg_b
+
+big = large_num(b)
+print 'b is big:', big
+
+
+1. El primer bug que encontre es que la variable 'b' no esta definida. Se arregla asignan un valor a la variable "b"
+2. El siguiente bug esta en la funcion negate, en el return tiene un signo de resta. Para solucionarlo se le quitaria 
+   el signo de resta y se dejaria sola la variable.
+3. Otro bug que encontre es en la estructura del ultimo print esta se arreglaria agregando los parentesis.

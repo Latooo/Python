@@ -1,0 +1,21 @@
+
+Definicion de 5 o menos palabras:
+
+Strings: Secuencia de caracteres textuales.
+Listas: Colección mutable de elementos.
+Tuplas: Colección inmutable de elementos.
+Diccionarios: Estructura clave-valor mutable e indexada.
+
+
+Strings: Son inmutables.
+Listas: Son mutables.
+Tuplas: Son inmutables.
+Diccionarios: Son mutables.
+
+
+
+
+
+
+
+

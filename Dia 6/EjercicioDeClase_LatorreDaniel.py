@@ -19,7 +19,7 @@ if producto in diccionario["Productos"] :
     IndiceProducto = diccionario["Productos"].index(producto)
     precioTotal = diccionario["Precios"][IndiceProducto]
     precioTotal = precioTotal * cantidad
-
-print(precioTotal)
-
+    print(f"El precio total es de $",precioTotal,)
+else:
+    print("El producto no se encuentra.")
     
