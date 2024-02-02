@@ -1,4 +1,6 @@
-from MODULOS import suma
+import MODULOS 
 
+impresion = MODULOS.suma(5, 3)
 
-print(suma)
+print(impresion)
+
