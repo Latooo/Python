@@ -1,6 +1,5 @@
 
-from MODULOS import Colision
-
+##DIA 6
 import math
 def Colision(bola1, bola2):
     x1, y1, r1 = bola1
@@ -12,8 +11,6 @@ bola1 = (0,0,5)
 bola2 = (8,0,3)
 
 print(Colision(bola1, bola2))
-
-#3D
 
 def Colision(bola1, bola2):
     x1, y1, z1, r1 = bola1

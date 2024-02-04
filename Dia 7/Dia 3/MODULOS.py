@@ -1,4 +1,7 @@
-from MODULOS import change
+
+
+##DIA 3
+##MoneyChange
 
 def change(quantity):
     coin10 = quantity // 10
@@ -22,7 +25,5 @@ def cashier():
 
     coin10, coin5, coin1 = change(quantity)
 
-    print(f"\nDeliver \n{coin10} coins of 10\n{coin5} coins of 5\n{coin1} coins of 1.")
-
-cashier()
+    print(f"\nDeliver \n{coin10} coins of 10\n{coin5} coins of 5\n{coin1} coins of 1.")    
 
