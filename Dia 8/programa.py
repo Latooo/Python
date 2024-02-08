@@ -51,7 +51,3 @@ print("\n9. Nombres de clientes que empiezan por A:")
 print(nombresA)
 
 # 10. Comerciales que tengan el apellido "Ruiz"
-apellidoRuiz = set([comercial['nombre'] for comercial in data['ventas']['comerciales'] if
-                      'Ruiz' in comercial['apellido1']])
-print("\n10. Nombres de comerciales con apellido 'Ruiz' (sin duplicados):")
-print(apellidoRuiz)
