@@ -16,9 +16,7 @@ print("\n2. Los dos pedidos con mayor valor")
 print(pedidosMayorValor)
 
 # 3. Identificadores de clientes que han realizado algún pedido
-clientesPedidos = list(set(pedido['id_cliente'] for pedido in data['ventas']['pedidos']))
-print("\n3. Clientes que han hecho pedidos:")
-print(clientesPedidos)
+
 
 # 4. Pedidos en 2017 con cantidad total superior a 500€
 pedidos2017 = [pedido for pedido in data['ventas']['pedidos'] if
@@ -27,13 +25,7 @@ print("\n4. Pedidos de 2017 con total mayor a 500:")
 print(pedidos2017)
 
 # 5. Comerciales con comisión entre 0.05 y 0.11
-#comerciales05y011 =[comercial for comercial in data ["ventas"]["comerciales"] if 0.05 <= comercial["comision"]<= 0.11]
-#print("Los comerciales con comisión entre 0.05 y 0.11 son:")
-#for comercial in comerciales05y011:
- #   nombre = comercial["nombre"]
- #   apellido1 = comercial["apellido1"]
-#apellido2 = comercial.get("apellido2", "")  # Si no hay segundo apellido, se asigna una cadena vacía
-#    print(f"{nombre} {apellido1} {apellido2}")
+
 
 # 6. Valor de la comisión más alta
 
