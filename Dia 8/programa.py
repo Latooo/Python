@@ -2,8 +2,8 @@ import json
 from operator import itemgetter
 
 # Cargar datos desde el archivo JSON
-with open('data.json') as f:
-    data = json.load(f)
+f= open('data.json')
+data = json.load(f)
 
 # 1. Listado de todos los pedidos ordenados por fecha
 pedidosFecha = sorted(data['ventas']['pedidos'], key=itemgetter('fecha'), reverse=True)
