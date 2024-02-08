@@ -27,7 +27,13 @@ print("\n4. Pedidos de 2017 con total mayor a 500:")
 print(pedidos2017)
 
 # 5. Comerciales con comisión entre 0.05 y 0.11
-
+#comerciales05y011 =[comercial for comercial in data ["ventas"]["comerciales"] if 0.05 <= comercial["comision"]<= 0.11]
+#print("Los comerciales con comisión entre 0.05 y 0.11 son:")
+#for comercial in comerciales05y011:
+ #   nombre = comercial["nombre"]
+ #   apellido1 = comercial["apellido1"]
+#apellido2 = comercial.get("apellido2", "")  # Si no hay segundo apellido, se asigna una cadena vacía
+#    print(f"{nombre} {apellido1} {apellido2}")
 
 # 6. Valor de la comisión más alta
 
@@ -44,16 +50,16 @@ nombresANP = sorted(
     [cliente['nombre'] for cliente in data['ventas']['clientes'] if
      (cliente['nombre'].startswith('A') and cliente['nombre'].endswith('n')) or
      cliente['nombre'].startswith('P')])
-print("\n8. Nombres iniciados en A y terminados en N, y nombres iniciados en P:")
+print("\n8. Nombres de clientes que cumplen la condición:")
 print(nombresANP)
 
-# 9. Nombres de clientes que empiezan por A
+# 9. Nombres de los clientes que empiezan por la letra A
 nombresA = sorted([cliente['nombre'] for cliente in data['ventas']['clientes'] if cliente['nombre'].startswith('A')])
-print("\n9. Clientes que empiezan por A:")
+print("\n9. Nombres de clientes que empiezan por A:")
 print(nombresA)
 
-# 10. Nombres de comerciales que tienen como apellido "Ruiz" (sin duplicados)
-ruiz = set([comercial['nombre'] for comercial in data['ventas']['comerciales'] if
+# 10. Comerciales que tengan el apellido "Ruiz"
+apellidoRuiz = set([comercial['nombre'] for comercial in data['ventas']['comerciales'] if
                       'Ruiz' in comercial['apellido1']])
-print("\n10. Comerciales con apellido Ruiz:")
-print(ruiz)
+print("\n10. Nombres de comerciales con apellido 'Ruiz' (sin duplicados):")
+print(apellidoRuiz)
