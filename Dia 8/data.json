@@ -10,12 +10,12 @@
         {"id": 10, "nombre": "Daniel", "apellido1": "Santana", "apellido2": "Loyola", "ciudad": "Sevilla", "categoría": 125}
       ],
       "comerciales": [
-        {"id": 3, "nombre": "Diego", "apellido1": "Flores", "apellido2": "Salas", "comisión": 0.11},
-        {"id": 4, "nombre": "Marta", "apellido1": "Herrera", "apellido2": "Gil", "comisión": 0.14},
-        {"id": 5, "nombre": "Antonio", "apellido1": "Carretero", "apellido2": "Ortega", "comisión": 0.12},
-        {"id": 6, "nombre": "Manuel", "apellido1": "Domínguez", "apellido2": "Hernández", "comisión": 0.13},
-        {"id": 7, "nombre": "Antonio", "apellido1": "Vega", "apellido2": "Hernández", "comisión": 0.11},
-        {"id": 8, "nombre": "Alfredo", "apellido1": "Ruiz", "apellido2": "Flores", "comisión": 0.05}
+        {"id": 3, "nombre": "Diego", "apellido1": "Flores", "apellido2": "Salas", "comision": 0.11},
+        {"id": 4, "nombre": "Marta", "apellido1": "Herrera", "apellido2": "Gil", "comision": 0.14},
+        {"id": 5, "nombre": "Antonio", "apellido1": "Carretero", "apellido2": "Ortega", "comision": 0.12},
+        {"id": 6, "nombre": "Manuel", "apellido1": "Domínguez", "apellido2": "Hernández", "comision": 0.13},
+        {"id": 7, "nombre": "Antonio", "apellido1": "Vega", "apellido2": "Hernández", "comision": 0.11},
+        {"id": 8, "nombre": "Alfredo", "apellido1": "Ruiz", "apellido2": "Flores", "comision": 0.05}
       ],
       "pedidos": [
         {"id": 3, "total": 65.26, "fecha": "2017-10-05", "id_cliente": 2, "id_comercial": 1},
